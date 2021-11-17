@@ -1,13 +1,13 @@
 ﻿Form:
-  Name:               Test_163326
+  Name:               Test_163326_last
   Enabled For RDMLX:  Yes
 
   Multilingual Details:
   - ENG:
-      Description:        "Test git push"
+      Description:        "Test"
 
   - FRA:
-      Description:        "Test git push"
+      Description:        "Test"
 
   Source: |
     * **************************************************
@@ -16,7 +16,7 @@
     *
     * **************************************************
     Function Options(*DIRECT)
-    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(452) Top(230)
+    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(512) Top(228)
     
     Evtroutine Handling(#com_owner.CreateInstance)
     

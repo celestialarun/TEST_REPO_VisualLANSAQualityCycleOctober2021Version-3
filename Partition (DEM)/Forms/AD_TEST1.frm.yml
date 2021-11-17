@@ -1,13 +1,13 @@
 ﻿Form:
-  Name:               Test_163326_new
+  Name:               AD_Test1
   Enabled For RDMLX:  Yes
 
   Multilingual Details:
   - ENG:
-      Description:        "Test1"
+      Description:        "Test"
 
   - FRA:
-      Description:        "Test1"
+      Description:        "Test"
 
   Source: |
     * **************************************************
@@ -16,7 +16,7 @@
     *
     * **************************************************
     Function Options(*DIRECT)
-    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(448) Top(233)
+    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2)
     
     Evtroutine Handling(#com_owner.CreateInstance)
     
