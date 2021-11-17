@@ -1,13 +1,13 @@
 ﻿Form:
-  Name:               Test1
+  Name:               Test_163326_new
   Enabled For RDMLX:  Yes
 
   Multilingual Details:
   - ENG:
-      Description:        "Test"
+      Description:        "Test1"
 
   - FRA:
-      Description:        "Test"
+      Description:        "Test1"
 
   Source: |
     * **************************************************
@@ -16,9 +16,7 @@
     *
     * **************************************************
     Function Options(*DIRECT)
-    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(422) Top(198)
-    
-    Define_Com Class(#ZEROS.Visual) Name(#ZEROS) Componentversion(1) Displayposition(1) Height(21) Left(132) Parent(#COM_OWNER) Tabposition(1) Top(60) Usepicklist(False) Width(196)
+    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2)
     
     Evtroutine Handling(#com_owner.CreateInstance)
     
