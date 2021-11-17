@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               Test_AD1
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "test theme"
+
+  - FRA:
+      Description:        "test theme"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignGray) Themeaccentdarkcolor('#e64a19') Themeaccentlightcolor('#ff8a65') Themeaccentmediumcolor('#ff5722')
+    
+    End_Com

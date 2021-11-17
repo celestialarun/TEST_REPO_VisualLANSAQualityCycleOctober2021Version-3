@@ -1,0 +1,43 @@
+﻿Web Page:
+  Name:               Test_Aru
+  Enabled For RDMLX:  Yes
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Test"
+
+  - FRA:
+      Description:        "Test"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_WEB) Theme(#SYS_THEME<MaterialDesignBlue>)
+    
+    Define_Com Class(#PRIM_MD.Edit) Name(#Edit) Appearance(TextFieldBox) Caption('Caption') Displayposition(1) Left(254) Parent(#COM_OWNER) Tabposition(1) Top(116) Height(74) Width(331)
+    
+    
+    
+    
+    Evtroutine Handling(#Com_owner.Initialize)
+    
+    Endroutine
+    
+    Evtroutine Handling(#Password.Enter)
+    
+    Endroutine
+    End_Com
+
+  Offline Support:    No
+  Allow Zoom:         Yes
+
+  Web App Manifest:
+
+  Loading Screen:
+    Image:              Spinner
+
+    Multilingual Text:
+    - ENG:
+        Text:               "Loading..."
+    - FRA:
+        Text:               "Loading..."
+
+  Security Policy:    None
