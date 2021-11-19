@@ -1,13 +1,13 @@
 ﻿Form:
-  Name:               Aru_Test3
+  Name:               Retest_163326
   Enabled For RDMLX:  Yes
 
   Multilingual Details:
   - ENG:
-      Description:        "test3"
+      Description:        "test"
 
   - FRA:
-      Description:        "test3"
+      Description:        "test"
 
   Source: |
     * **************************************************
@@ -16,7 +16,7 @@
     *
     * **************************************************
     Function Options(*DIRECT)
-    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(516) Top(272)
+    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2)
     
     Evtroutine Handling(#com_owner.CreateInstance)
     

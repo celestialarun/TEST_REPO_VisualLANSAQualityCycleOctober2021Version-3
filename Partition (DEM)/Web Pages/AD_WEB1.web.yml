@@ -1,0 +1,38 @@
+﻿Web Page:
+  Name:               AD_WEB1
+  Enabled For RDMLX:  Yes
+
+  Multilingual Details:
+  - ENG:
+      Description:        "AD  web test"
+
+  - FRA:
+      Description:        "AD  web test"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_WEB) Theme(#SYS_THEME<MaterialDesignBlue>)
+    
+    Define_Com Class(#Gray.EditField) Name(#Gray) Displayposition(1) Left(224) Parent(#COM_OWNER) Tabposition(1) Top(125) Height(44) Width(352)
+    Define_Com Class(#PRIM_PHBN) Name(#Button1) Caption('Button1') Displayposition(2) Left(64) Parent(#COM_OWNER) Tabposition(2) Top(128)
+    
+    Evtroutine Handling(#Com_owner.Initialize)
+    
+    Endroutine
+    
+    End_Com
+
+  Offline Support:    No
+  Allow Zoom:         Yes
+
+  Web App Manifest:
+
+  Loading Screen:
+    Image:              Spinner
+
+    Multilingual Text:
+    - ENG:
+        Text:               "Loading..."
+    - FRA:
+        Text:               "Loading..."
+
+  Security Policy:    None

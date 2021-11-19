@@ -1,0 +1,37 @@
+﻿Web Page:
+  Name:               AD_Red_web
+  Enabled For RDMLX:  Yes
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Web_RED"
+
+  - FRA:
+      Description:        "Web_RED"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_WEB) Theme(#SYS_THEME<MaterialDesignBlue>)
+    
+    Define_Com Class(#AB$OPT.EditField) Name(#AB$OPT) Displayposition(1) Left(232) Parent(#COM_OWNER) Tabposition(1) Top(100) Height(37) Width(341)
+    
+    Evtroutine Handling(#Com_owner.Initialize)
+    
+    Endroutine
+    
+    End_Com
+
+  Offline Support:    No
+  Allow Zoom:         Yes
+
+  Web App Manifest:
+
+  Loading Screen:
+    Image:              Spinner
+
+    Multilingual Text:
+    - ENG:
+        Text:               "Loading..."
+    - FRA:
+        Text:               "Loading..."
+
+  Security Policy:    None

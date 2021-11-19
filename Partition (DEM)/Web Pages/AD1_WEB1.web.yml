@@ -1,0 +1,42 @@
+﻿Web Page:
+  Name:               AD1_web1
+  Enabled For RDMLX:  Yes
+
+  Multilingual Details:
+  - ENG:
+      Description:        "testweb"
+
+  - FRA:
+      Description:        "testweb"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_WEB) Theme(#SYS_THEME<2015Gray>)
+    
+    Define_Com Class(#PRIM_PHBN) Name(#Button1) Displayposition(2) Left(8) Parent(#COM_OWNER) Tabposition(1) Top(48) Height(24) Caption('Green')
+    Define_Com Class(#PRIM_PHBN) Name(#Button2) Displayposition(3) Left(8) Parent(#COM_OWNER) Tabposition(2) Top(104) Height(24) Caption('Red')
+    Define_Com Class(#PRIM_PHBN) Name(#Buttom3) Caption('Gray') Displayposition(4) Left(8) Parent(#COM_OWNER) Tabposition(3) Top(184) Height(24)
+    Define_Com Class(#PRIM_MD.Label) Name(#Text) Caption('Heading 1') Displayposition(5) Left(208) Parent(#COM_OWNER) Tabposition(4) Themedrawstyle('Heading1') Top(40) Width(109)
+    Define_Com Class(#PRIM_MD.Label) Name(#Text1) Caption('Heading 2') Displayposition(1) Left(216) Parent(#COM_OWNER) Tabposition(5) Themedrawstyle('Heading2') Top(96) Width(108)
+    Define_Com Class(#PRIM_MD.Label) Name(#Text2) Caption('Heading 3') Displayposition(6) Left(216) Parent(#COM_OWNER) Tabposition(6) Themedrawstyle('Heading3') Top(168) Width(110)
+    
+    Evtroutine Handling(#Com_owner.Initialize)
+    
+    Endroutine
+    
+    End_Com
+
+  Offline Support:    No
+  Allow Zoom:         Yes
+
+  Web App Manifest:
+
+  Loading Screen:
+    Image:              Spinner
+
+    Multilingual Text:
+    - ENG:
+        Text:               "Loading..."
+    - FRA:
+        Text:               "Loading..."
+
+  Security Policy:    None

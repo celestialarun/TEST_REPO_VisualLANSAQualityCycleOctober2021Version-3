@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               AD1_test1
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "test1"
+
+  - FRA:
+      Description:        "test1"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignBlue)
+    
+    End_Com

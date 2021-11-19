@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               AR_Red
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Red color"
+
+  - FRA:
+      Description:        "Red color"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignBlue)
+    
+    End_Com

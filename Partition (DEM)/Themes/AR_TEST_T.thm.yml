@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               AR_test_TH
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Test TH"
+
+  - FRA:
+      Description:        "Test TH"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignGray) Themeaccentdarkcolor('#f57c00') Themeaccentlightcolor('#ffb74d') Themeaccentmediumcolor('#ff9800')
+    
+    End_Com

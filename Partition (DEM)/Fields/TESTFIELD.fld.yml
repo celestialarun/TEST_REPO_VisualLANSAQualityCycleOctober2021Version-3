@@ -1,0 +1,22 @@
+﻿Field:
+  Name:               TestField1
+  Type:               Alpha
+  Length:             10
+  Decimals:           0
+  Default Value:      "*BLANKS"
+  Enabled For RDMLX:  No
+  System Field:       No
+
+  Input Attributes:
+  - FE
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Testf1"
+      Label:              "Testf1"
+      Heading1:           "Testf1"
+
+  - FRA:
+      Description:        "Testf1"
+      Label:              "Testf1"
+      Heading1:           "Testf1"
