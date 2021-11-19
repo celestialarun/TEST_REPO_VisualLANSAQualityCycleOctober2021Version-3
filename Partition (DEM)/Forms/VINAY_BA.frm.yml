@@ -16,7 +16,7 @@
     *
     * **************************************************
     Function Options(*DIRECT)
-    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2)
+    Begin_Com Role(*EXTENDS #PRIM_FORM) Clientwidth(484) Clientheight(301) Componentversion(2) Left(562) Top(225)
     
     Evtroutine Handling(#com_owner.CreateInstance)
     
