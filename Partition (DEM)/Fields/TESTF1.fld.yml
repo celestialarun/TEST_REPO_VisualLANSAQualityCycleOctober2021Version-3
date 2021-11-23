@@ -1,10 +1,10 @@
 ﻿Field:
   Name:               TESTF1
-  Type:               Alpha
+  Type:               Binary
   Length:             10
   Decimals:           0
-  Default Value:      "*BLANKS"
-  Enabled For RDMLX:  No
+  Default Value:      "*NULL"
+  Enabled For RDMLX:  Yes
   System Field:       No
 
   Input Attributes:
