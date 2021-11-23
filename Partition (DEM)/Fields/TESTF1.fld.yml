@@ -12,11 +12,21 @@
 
   Multilingual Details:
   - ENG:
-      Description:        "Testfield1"
-      Label:              "Testfield1"
-      Heading1:           "Testfield1"
+      Description:        "Testfield11"
+      Label:              "Testfield11"
+      Heading1:           "Testfield11"
 
   - FRA:
       Description:        "Testfield1"
       Label:              "Testfield1"
       Heading1:           "Testfield1"
+
+  Source: |
+    *
+    Begin_Com Role(*EXTENDS #PRIM_OBJT)
+    
+    Begin_Com Role(*Visual #PRIM_EVEF) Name(#VisualEdit) Defaultvisual(True) Usepicklist(False) Componentversion(1) Height(21) Width(335)
+    
+    End_Com
+    
+    End_Com
