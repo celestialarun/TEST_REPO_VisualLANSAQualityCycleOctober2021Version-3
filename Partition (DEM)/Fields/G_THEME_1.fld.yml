@@ -1,0 +1,22 @@
+﻿Field:
+  Name:               G_Theme1_F1
+  Type:               Alpha
+  Length:             10
+  Decimals:           0
+  Default Value:      "*BLANKS"
+  Enabled For RDMLX:  No
+  System Field:       No
+
+  Input Attributes:
+  - FE
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Test_F1"
+      Label:              "Test_F1"
+      Heading1:           "Test_F1"
+
+  - FRA:
+      Description:        "Test_F1"
+      Label:              "Test_F1"
+      Heading1:           "Test_F1"
