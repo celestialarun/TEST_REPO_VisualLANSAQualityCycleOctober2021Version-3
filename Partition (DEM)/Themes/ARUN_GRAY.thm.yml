@@ -1,13 +1,13 @@
 ﻿Theme:
-  Name:               AR_test_TH
+  Name:               Arun_graytheme
   Target Platform:    Browser
 
   Multilingual Details:
   - ENG:
-      Description:        "Test TH"
+      Description:        "testgray theme"
 
   - FRA:
-      Description:        "Test TH"
+      Description:        "testgray theme"
 
   Source: |
     Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignGray) Themeaccentdarkcolor('#f57c00') Themeaccentlightcolor('#ffb74d') Themeaccentmediumcolor('#ff9800')

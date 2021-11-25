@@ -1,0 +1,346 @@
+﻿Partition:
+  Name:                             TST
+  Description:                      test partition
+  Unique Prefix:                    D
+  Security Officer:                 USERID
+  Default File Library:             TST_LIB
+  Include in Library List:          No
+  Module Library:                   TST_LIB
+  Create Relative Record Number:    No
+  Apply SAA/CUA Standards:          Yes
+  Enable Documentor:                No
+  User Access Enforced:             No
+  Check Before Propagating:         No
+  Ignore Propagated Deletes:        No
+  Force *ENDWHERESQL:               No
+
+  RDMLX Settings:
+    Enable For Full RDMLX:          Yes
+    Create Field As RDMLX:          Yes
+    Create File As RDMLX:           Yes
+    Create Component As Full RDMLX: Yes
+    Create Function As Full RDMLX:  Yes
+    Enable Short Char:              Disable
+
+  Available Field Types:
+  - Alphanumeric:
+      Enabled:            No
+      Length:             256
+      Decimals:           0
+      Default Value:      "*BLANKS"
+
+      Input Attributes:
+      - FE
+      - LC
+
+  - Decimal:
+      Enabled:            Yes
+      Length:             15
+      Decimals:           0
+      Default Value:      "*ZEROS"
+      Edit Code:          J
+
+      Input Attributes:
+      - FE
+      - RB
+
+  - Signed:
+      Enabled:            No
+      Length:             15
+      Decimals:           0
+      Default Value:      "*ZEROS"
+      Edit Code:          J
+
+      Input Attributes:
+      - FE
+      - RB
+
+  - Char:
+      Enabled:            No
+      Length:             256
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - NChar:
+      Enabled:            No
+      Length:             256
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - Date Time:
+      Enabled:            Yes
+      Length:             26
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+      - ISO
+      - SUTC
+
+  - String:
+      Enabled:            No
+      Length:             512
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - NVarChar:
+      Enabled:            Yes
+      Length:             512
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - Binary:
+      Enabled:            No
+      Length:             256
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+
+  - VarBinary:
+      Enabled:            No
+      Length:             256
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+
+  - Date:
+      Enabled:            Yes
+      Length:             10
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+      - ISO
+
+  - Time:
+      Enabled:            Yes
+      Length:             8
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+      - ISO
+
+  - Integer:
+      Enabled:            Yes
+      Length:             4
+      Decimals:           0
+      Default Value:      "*NULL"
+      Edit Code:          J
+
+      Input Attributes:
+      - ASQN
+
+  - Float:
+      Enabled:            No
+      Length:             8
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+
+  - CLOB:
+      Enabled:            Yes
+      Length:             0
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - BLOB:
+      Enabled:            Yes
+      Length:             0
+      Decimals:           0
+      Default Value:      "*SQLNULL"
+
+      Input Attributes:
+      - ASQN
+      - LC
+
+  - Boolean:
+      Enabled:            Yes
+      Length:             1
+      Decimals:           0
+      Default Value:      "*NULL"
+
+      Input Attributes:
+      - ASQN
+
+  Universal Interface Options:
+    Process Menu Style:             Cursor
+    Uppercase Process Title:        No
+    Uppercase Function Title:       No
+    Display Process Date And Time:  No
+    Display Function Date And Time: No
+    Display Panel ID:               No
+    Function Key Line 1:            23
+    Function Key Line 2:            24
+    Message Line Number:            22
+
+  Supported Database Products:
+  - SQLANYWHERE:
+      Enabled:            Yes
+
+  - MSSQLS:
+      Enabled:            Yes
+
+  - SQLAZURE:
+      Enabled:            Yes
+
+  - ODBCORACLE:
+      Enabled:            Yes
+
+  - DB2ISERIES:
+      Enabled:            Yes
+
+  - MYSQL:
+      Enabled:            Yes
+
+  Language Settings:
+  - ENG:
+      Description:                 English
+      Partition Description:       test partition
+      Default Language:            Yes
+      Development Language:        Yes
+      DBCS Support Required:       No
+      RLTB Support Required:       No
+      Locale Uppercasing Required: No
+      IGC Conversion Required:     No
+      ISO Language Code:           en
+
+      Menu Options:
+        Process Menu Prompt Line:    "Enter number of function required or place cursor on same line :"
+        Help Option On Menus:        Display HELP Text
+        Return Prefix On Menus:      Return to
+        Exit Option On Menus:        Exit from Application
+
+      Function Keys:
+      - Cancel:
+          Caption:            Cancel
+          Key:                12
+
+      - Enter:
+          Caption:            OK
+          Key:                RA
+
+      - Help:
+          Caption:            Help
+          Key:                01
+
+      - Prompt:
+          Caption:            Prompt
+          Key:                04
+
+      - Refresh:
+          Caption:            Refresh
+          Key:                05
+
+      - Messages:
+          Caption:            Msgs
+          Key:                14
+
+      - Backward:
+          Caption:            Bkwd
+          Key:                07
+
+      - Command:
+          Caption:            Command
+          Key:                09
+
+      - Keys:
+          Caption:            Keys
+          Key:                13
+
+      - Exit:
+          Caption:            Exit
+          Key:                03
+
+      - Exit Level:
+          Caption:            Exit
+          Key:                03
+
+      - Home:
+          Caption:            Home
+          Key:                HM
+
+      - Forward:
+          Caption:            Forward
+          Key:                08
+
+      - Contents:
+          Caption:            Contents
+          Key:                23
+
+      - Extended Help:
+          Caption:            ExtHelp
+          Key:                02
+
+      - Help Index:
+          Caption:            Index
+          Key:                11
+
+      - Help Keys:
+          Caption:            Keys Help
+          Key:                09
+
+      - Left:
+          Caption:            Left
+          Key:                19
+
+      - Retrieve:
+          Caption:            Retrieve
+          Key:                09
+
+      - Right:
+          Caption:            Right
+          Key:                20
+
+      - Switch Backward:
+          Caption:            SwitchBkwd
+          Key:                18
+
+      - Switch Forward:
+          Caption:            SwitchFwd
+          Key:                06
+
+      - Actions:
+          Caption:            Actions
+          Key:                10
+
+      - Create:
+          Caption:            Create
+          Key:                06
+
+      - Change:
+          Caption:            Change
+          Key:                21
+
+      - Delete:
+          Caption:            Delete
+          Key:                22
