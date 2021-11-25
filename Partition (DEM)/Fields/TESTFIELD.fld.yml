@@ -1,5 +1,5 @@
 ﻿Field:
-  Name:               TestField1
+  Name:               TestField4
   Type:               Alpha
   Length:             10
   Decimals:           0
@@ -12,11 +12,11 @@
 
   Multilingual Details:
   - ENG:
-      Description:        "Testf1"
-      Label:              "Testf1"
-      Heading1:           "Testf1"
+      Description:        "TESTF4"
+      Label:              "TESTF4"
+      Heading1:           "TESTF4"
 
   - FRA:
-      Description:        "Testf1"
-      Label:              "Testf1"
-      Heading1:           "Testf1"
+      Description:        "TESTF4"
+      Label:              "TESTF4"
+      Heading1:           "TESTF4"
